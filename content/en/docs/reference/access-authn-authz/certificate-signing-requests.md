@@ -206,7 +206,7 @@ Create a CertificateSigningRequest and submit it to a Kubernetes Cluster via kub
 
 ```shell
 cat <<EOF | kubectl apply -f -
-apiVersion: certificates.k8s.io/v1
+apiVersion: certificates.k8s.io/v1beta1
 kind: CertificateSigningRequest
 metadata:
   name: john
